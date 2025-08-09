@@ -1,16 +1,59 @@
-# weather_app
 
-A new Flutter project.
+# Weatherly
 
-## Getting Started
+Weatherly is a Flutter app that fetches real-time weather data using the OpenWeather API.  
+It provides a simple, clean interface showing current weather conditions and temperature.
 
-This project is a starting point for a Flutter application.
+## Features
+- Real-time weather updates  
+- Clean and responsive UI  
+- Supports multiple locations  
 
-A few resources to get you started if this is your first Flutter project:
+## Setup Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/PRIYANSHU2569/weatherly.git
+````
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to the project folder:
+
+   ```bash
+   cd weatherly
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Obtain your OpenWeather API key from [https://openweathermap.org/api](https://openweathermap.org/api)
+
+5. Add your API key in the `lib/services/weather_services.dart` file.
+
+6. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Screenshots
+
+![Weatherly Screenshot](screenshots/IMG-20250809-WA0028.jpg)
+
+---
+
+Feel free to contribute or raise issues!
+
+---
+
+Made by Priyanshu Gupta
+
+
+
+
+
+Feel free to contribute or raise issues!
+
+Made by Priyanshu Gupta
